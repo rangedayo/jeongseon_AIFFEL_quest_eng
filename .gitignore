@@ -1,0 +1,17 @@
+# 772MB 에러의 주범들 차단
+data/
+models/
+
+# 대용량 확장자 차단
+*.pt
+*.pth
+*.json
+*.txt
+*.zip
+*.memmap
+*.bin
+*.vocab
+
+# 주피터 임시 파일
+.ipynb_checkpoints/
+__pycache__/
